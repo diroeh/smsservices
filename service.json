@@ -1,0 +1,31 @@
+[
+    {
+        "phone_codes": [
+            380
+        ],
+        "requests": [
+            {
+                "method": "PUT",
+                "url": "https://partnerregistration.uklon.com.ua/api/v1/landing/verification",
+                "data": {
+                 "locale": "UK", 
+                 "phone": "{formatted_phone: +************}"
+                },
+            }
+        ]
+    },
+    {
+        "phone_codes": [
+            380
+        ],
+        "requests": [
+            {
+                "method": "POST",
+                "url": "https://api.klr.com.ua/api/customers/sms-auth/send-code",
+                "json": {
+                    "phone": "{formatted_phone: +************}"
+                }
+            }
+        ]
+    }
+]
