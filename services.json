@@ -28,4 +28,19 @@
             }
         ]
     }
+    {
+        "phone_codes": [
+            380
+        ],
+        "requests": [
+            {
+                "method": "POST",
+                "url": "https://my.ctrs.com.ua/api/auth/login",
+                "data": {
+                "provider": "phone"
+                'identity': "{full_phone}"
+                }
+            }
+        ]
+    } 
 ]
